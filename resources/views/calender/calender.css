@@ -1,0 +1,54 @@
+.calender-container {
+    width: 500px;
+    margin: 0;
+    border-radius: 5px;
+    background-color: bisque;
+    color: crimson;
+}
+
+.h1 {
+height: 80px;
+line-height: 80px;
+text-align: center;
+font-size: 24px;
+margin: 0;
+}
+
+.calender {
+    padding: 0 30px 30px 30px;
+}
+/* .calender *:first-child {
+    color: red;
+}
+
+.calender *:last-child {
+    color: blue; */
+/* } */
+
+table {
+    width: 100%;
+}
+
+tr,td {
+    text-align: center;
+    padding: 10px;
+}
+tr {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+td {
+    font-weight: bold;
+}
+
+.day {
+    color: olivedrab;
+}
+
+.day *:first-child {
+    color: red;
+}
+.day *:last-child {
+    color: blue;
+}
