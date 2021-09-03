@@ -1,0 +1,69 @@
+.calender-container {
+  width: 500px;
+  margin: 0;
+  border-radius: 5px;
+  background-color: bisque;
+  color: crimson;
+  /* .calender *:first-child {
+      color: red;
+  }
+
+  .calender *:last-child {
+      color: blue; */
+  /* } */
+}
+.calender-container .h1 {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+}
+.calender-container .calender {
+  padding: 0 30px 30px 30px;
+}
+.calender-container table {
+  width: 100%;
+}
+.calender-container tr,
+.calender-container td {
+  text-align: center;
+  padding: 10px;
+}
+.calender-container tr {
+  font-weight: normal;
+  font-size: 14px;
+}
+.calender-container td {
+  font-weight: bold;
+}
+.calender-container .day {
+  color: olivedrab;
+}
+.calender-container .day *:first-child {
+  color: red;
+}
+.calender-container .day *:last-child {
+  color: blue;
+}
+
+#overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(100, 100, 100, 0.8);
+  z-index: 2147483647;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background: black;
+}
